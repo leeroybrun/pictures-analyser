@@ -1,0 +1,305 @@
+{
+  "Exposure2012": {
+    "minVal": -5,
+    "maxVal": 5,
+    "label": "Exposure",
+    "bgClassName": "darkLight"
+  },
+  "Contrast2012": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Contrast",
+    "bgClassName": "lightDark"
+  },
+  "Highlights2012": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Highlights",
+    "bgClassName": "darkLight"
+  },
+  "Shadows2012": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Shadows",
+    "bgClassName": "darkLight"
+  },
+  "Whites2012": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Whites",
+    "bgClassName": "darkLight"
+  },
+  "Blacks2012": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Blacks",
+    "bgClassName": "darkLight"
+  },
+  
+
+  "Temperature": {
+    "minVal": 2000,
+    "maxVal": 50000,
+    "label": "Temp",
+    "bgClassName": "temperature"
+  },
+  "Tint": {
+    "minVal": -150,
+    "maxVal": 150,
+    "label": "Tint",
+    "bgClassName": "tint"
+  },
+  "Vibrance": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Vibrance",
+    "bgClassName": "vibrance"
+  },
+  "Saturation": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Saturation",
+    "bgClassName": "vibrance"
+  },
+
+  "HueAdjustmentRed": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Red",
+    "bgClassName": "hueRed"
+  },
+  "HueAdjustmentOrange": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Orange",
+    "bgClassName": "hueOrange"
+  },
+  "HueAdjustmentYellow": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Yellow",
+    "bgClassName": "hueYellow"
+  },
+  "HueAdjustmentGreen": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Green",
+    "bgClassName": "hueGreen"
+  },
+  "HueAdjustmentAqua": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Aqua",
+    "bgClassName": "hueAqua"
+  },
+  "HueAdjustmentBlue": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Blue",
+    "bgClassName": "hueBlue"
+  },
+  "HueAdjustmentPurple": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Purple",
+    "bgClassName": "huePurple"
+  },
+  "HueAdjustmentMagenta": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Magenta",
+    "bgClassName": "hueMagenta"
+  },
+
+  "SaturationAdjustmentRed": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Red",
+    "bgClassName": "saturationRed"
+  },
+  "SaturationAdjustmentOrange": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Orange",
+    "bgClassName": "saturationOrange"
+  },
+  "SaturationAdjustmentYellow": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Yellow",
+    "bgClassName": "saturationYellow"
+  },
+  "SaturationAdjustmentGreen": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Green",
+    "bgClassName": "saturationGreen"
+  },
+  "SaturationAdjustmentAqua": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Aqua",
+    "bgClassName": "saturationAqua"
+  },
+  "SaturationAdjustmentBlue": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Blue",
+    "bgClassName": "saturationBlue"
+  },
+  "SaturationAdjustmentPurple": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Purple",
+    "bgClassName": "saturationPurple"
+  },
+  "SaturationAdjustmentMagenta": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Magenta",
+    "bgClassName": "saturationMagenta"
+  },
+  
+  "LuminanceAdjustmentRed": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Red",
+    "bgClassName": "luminanceRed"
+  },
+  "LuminanceAdjustmentOrange": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Orange",
+    "bgClassName": "luminanceOrange"
+  },
+  "LuminanceAdjustmentYellow": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Yellow",
+    "bgClassName": "luminanceYellow"
+  },
+  "LuminanceAdjustmentGreen": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Green",
+    "bgClassName": "luminanceGreen"
+  },
+  "LuminanceAdjustmentAqua": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Aqua",
+    "bgClassName": "luminanceAqua"
+  },
+  "LuminanceAdjustmentBlue": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Blue",
+    "bgClassName": "luminanceBlue"
+  },
+  "LuminanceAdjustmentPurple": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Purple",
+    "bgClassName": "luminancePurple"
+  },
+  "LuminanceAdjustmentMagenta": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Magenta",
+    "bgClassName": "luminanceMagenta"
+  },
+
+
+  "Clarity2012": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Clarity",
+    "bgClassName": "lightDark"
+  },
+  "Dehaze": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Dehaze",
+    "bgClassName": "lightDark"
+  },
+  "PostCropVignetteAmount": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Vignette",
+    "bgClassName": "darkLight"
+  },
+  "PostCropVignetteMidpoint": {
+    "minVal": 0,
+    "midVal": 50,
+    "maxVal": 100,
+    "label": "Midpoint",
+    "bgClassName": "darkLight"
+  },
+  "PostCropVignetteRoundness": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Roundness",
+    "bgClassName": "darkLight"
+  },
+  "PostCropVignetteFeather": {
+    "minVal": 0,
+    "midVal": 50,
+    "maxVal": 100,
+    "label": "Feather",
+    "bgClassName": "darkLight"
+  },
+  "PostCropVignetteHighlightContrast": {
+    "minVal": 0,
+    "maxVal": 100,
+    "label": "Hightlights",
+    "bgClassName": ""
+  },
+  "GrainAmount": {
+    "minVal": 0,
+    "maxVal": 100,
+    "label": "Grain",
+    "bgClassName": "darkLight"
+  },
+  "GrainSize": {
+    "minVal": 0,
+    "maxVal": 100,
+    "label": "Size",
+    "bgClassName": "darkLight"
+  },
+  "GrainFrequency": {
+    "minVal": 0,
+    "maxVal": 100,
+    "label": "Roughness",
+    "bgClassName": "darkLight"
+  },
+  "SplitToningHighlightHue": {
+    "minVal": 0,
+    "maxVal": 360,
+    "label": "Hue",
+    "bgClassName": "hue"
+  },
+  "SplitToningHighlightSaturation": {
+    "minVal": 0,
+    "maxVal": 100,
+    "label": "Saturation",
+    "bgClassName": "vibrance"
+  },
+  "SplitToningBalance": {
+    "minVal": -100,
+    "maxVal": 100,
+    "label": "Balance",
+    "bgClassName": "darkLight"
+  },
+  "SplitToningShadowHue": {
+    "minVal": 0,
+    "maxVal": 360,
+    "label": "Hue",
+    "bgClassName": "hue"
+  },
+  "SplitToningShadowSaturation": {
+    "minVal": 0,
+    "maxVal": 100,
+    "label": "Saturation",
+    "bgClassName": "vibrance"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "pageName": "HomePage",
+      "pagePath": "/home",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "style": {
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "padding": "1em"
+            }
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

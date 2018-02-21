@@ -1,0 +1,100 @@
+.lightroom-adjustments {
+  width:300px;
+  background-color:#191919;
+  font-family:sans-serif;
+  font-size:12px;
+}
+
+.sliderBgTemperature{
+  background:linear-gradient(to right, #004dff, #ffd300)
+}
+.sliderBgTint{
+  background:linear-gradient(to right, #3ae000, #9600e5)
+}
+.sliderBgDarkLight{
+  background:linear-gradient(to right, #393939, #a5a5a5)
+}
+.sliderBgLightDark{
+  background:linear-gradient(to right, #a5a5a5, #393939)
+}
+.sliderBgDarkLightDark{
+  background:linear-gradient(to right, #393939, #a5a5a5, #393939)
+}
+.sliderBgHue{
+  background:linear-gradient(to right, #b32d2d, #b3b32d, #2db32d, #2db3b3, #2d2db3, #b32db3, #b32d2d)
+}
+.sliderBgVibrance{
+  background:linear-gradient(to right, #595959, #61615f, #636863, #657070, #667, #7e657e, #866262, #8d5e5e, #959558, #509c50, #46a4a4, #3a3aab, #b32db3)
+}
+.sliderBgHueRed{
+  background:linear-gradient(to right, #993671, #993646, #996136)
+}
+.sliderBgSaturationRed{
+  background:linear-gradient(to right, #333, #993646)
+}
+.sliderBgLuminanceRed{
+  background:linear-gradient(to right, #331217, #993646, #999)
+}
+.sliderBgHueOrange{
+  background:linear-gradient(to right, #993646, #996136, #999636)
+}
+.sliderBgSaturationOrange{
+  background:linear-gradient(to right, #333, #996136)
+}
+.sliderBgLuminanceOrange{
+  background:linear-gradient(to right, #332012, #996136, #999)
+}
+.sliderBgHueYellow{
+  background:linear-gradient(to right, #996136, #999636, #509936)
+}
+.sliderBgSaturationYellow{
+  background:linear-gradient(to right, #333, #999636)
+}
+.sliderBgLuminanceYellow{
+  background:linear-gradient(to right, #333212, #999636, #999)
+}
+.sliderBgHueGreen{
+  background:linear-gradient(to right, #999636, #509936, #36998a)
+}
+.sliderBgSaturationGreen{
+  background:linear-gradient(to right, #333, #509936)
+}
+.sliderBgLuminanceGreen{
+  background:linear-gradient(to right, #1b3312, #509936, #999)
+}
+.sliderBgHueAqua{
+  background:linear-gradient(to right, #509936, #36998a, #366b99)
+}
+.sliderBgSaturationAqua{
+  background:linear-gradient(to right, #333, #36998a)
+}
+.sliderBgLuminanceAqua{
+  background:linear-gradient(to right, #12332e, #36998a, #999)
+}
+.sliderBgHueBlue{
+  background:linear-gradient(to right, #36998a, #366b99, #853699)
+}
+.sliderBgSaturationBlue{
+  background:linear-gradient(to right, #333, #366b99)
+}
+.sliderBgLuminanceBlue{
+  background:linear-gradient(to right, #122433, #366b99, #999)
+}
+.sliderBgHuePurple{
+  background:linear-gradient(to right, #366b99, #853699, #993671)
+}
+.sliderBgSaturationPurple{
+  background:linear-gradient(to right, #333, #853699)
+}
+.sliderBgLuminancePurple{
+  background:linear-gradient(to right, #2c1233, #853699, #999)
+}
+.sliderBgHueMagenta{
+  background:linear-gradient(to right, #853699, #993671, #993646)
+}
+.sliderBgSaturationMagenta{
+  background:linear-gradient(to right, #333, #993671)
+}
+.sliderBgLuminanceMagenta{
+  background:linear-gradient(to right, #331226, #993671, #999)
+}

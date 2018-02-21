@@ -1,0 +1,99 @@
+.panel>.header{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  margin:10px 6px;
+  height:24px;
+  line-height:24px
+}
+.panel>.header.toggleable{
+  cursor:pointer
+}
+.panel>.header>h1{
+  float:left;
+  font-size:14px;
+  font-weight:bold;
+  color:#a5a5a5;
+  margin:0;
+  text-transform: uppercase;
+}
+.panel>.header>svg{
+  float:right;
+  position:relative;
+  top:9px;
+  display:block;
+  fill:#a5a5a5;
+  -webkit-transform:rotateX(180deg);
+  -ms-transform:rotateX(180deg);
+  transform:rotateX(180deg);
+  transition:-webkit-transform 180ms;
+  transition:-ms-transform 180ms;
+  transition:transform 180ms
+}
+.panel>.header>*{
+  display:none
+}
+.panel>.header>h1,
+.panel>.header>svg{
+  display:block;
+  margin:0 10px
+}
+.panel.expanded>.header>*{
+  display:block
+}
+.panel.expanded>.header>svg{
+  -webkit-transform:none;
+  -ms-transform:none;
+  transform:none
+}
+
+.expandable>.header{
+  cursor:pointer
+}
+.expandable.transition{
+  transition:height 180ms ease-out
+}
+.expandable{
+  height:0;
+  overflow:hidden
+}
+.expandable.expanded{
+  height:auto
+}
+.group{
+  background-color:inherit
+}
+.group.toggleable{
+  padding:0 8px;
+  margin:0 -8px;
+  border-radius:5px;
+  background-color:#191919
+}
+.group.toggleable:before{
+  display:block;
+  content:'';
+  height:6px
+}
+.group.toggleable.expanded{
+  margin-bottom:8px
+}
+.group.expanded{
+  height:auto
+}
+
+.panel{
+  position:relative;
+  z-index:0;
+  overflow:hidden;
+  box-sizing:border-box;
+  padding:44px 16px 0;
+  background-color:inherit;
+  border-bottom:1px solid #0f0f0f
+}
+.panel.expandable{
+  height:44px
+}
+.panel.expanded{
+  height:auto
+}

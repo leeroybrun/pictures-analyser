@@ -1,0 +1,127 @@
+[
+  {
+    "title": "Light",
+    "groups": [
+      {
+        "items": [
+          "Exposure2012",
+          "Contrast2012",
+          "Highlights2012",
+          "Shadows2012",
+          "Whites2012",
+          "Blacks2012"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Color",
+    "groups": [
+      {
+        "items": [
+          "Temperature",
+          "Tint",
+          "Vibrance",
+          "Saturation"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "HSL",
+    "groups": [
+      {
+        "title": "Hue",
+        "items": [
+          "HueAdjustmentRed",
+          "HueAdjustmentOrange",
+          "HueAdjustmentYellow",
+          "HueAdjustmentGreen",
+          "HueAdjustmentAqua",
+          "HueAdjustmentBlue",
+          "HueAdjustmentPurple",
+          "HueAdjustmentMagenta"
+        ]
+      },
+      {
+        "title": "Saturation",
+        "items": [
+          "SaturationAdjustmentRed",
+          "SaturationAdjustmentOrange",
+          "SaturationAdjustmentYellow",
+          "SaturationAdjustmentGreen",
+          "SaturationAdjustmentAqua",
+          "SaturationAdjustmentBlue",
+          "SaturationAdjustmentPurple",
+          "SaturationAdjustmentMagenta"
+        ]
+      },
+      {
+        "title": "Luminance",
+        "items": [
+          "LuminanceAdjustmentRed",
+          "LuminanceAdjustmentOrange",
+          "LuminanceAdjustmentYellow",
+          "LuminanceAdjustmentGreen",
+          "LuminanceAdjustmentAqua",
+          "LuminanceAdjustmentBlue",
+          "LuminanceAdjustmentPurple",
+          "LuminanceAdjustmentMagenta"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Effects",
+    "groups": [
+      {
+        "items": [
+          "Clarity2012",
+          "Dehaze"
+        ]
+      },
+      {
+        "title": "Vignette",
+        "items": [
+          "PostCropVignetteAmount",
+          "PostCropVignetteMidpoint",
+          "PostCropVignetteRoundness",
+          "PostCropVignetteFeather",
+          "PostCropVignetteHighlightContrast"
+        ]
+      },
+      {
+        "title": "Grain",
+        "items": [
+          "GrainAmount",
+          "GrainSize",
+          "GrainFrequency"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Split Toning",
+    "groups": [
+      {
+        "title": "Highlights",
+        "items": [
+          "SplitToningHighlightHue",
+          "SplitToningHighlightSaturation"
+        ]
+      },
+      {
+        "items": [
+          "SplitToningBalance"
+        ]
+      },
+      {
+        "title": "Shadows",
+        "items": [
+          "SplitToningShadowHue",
+          "SplitToningShadowSaturation"
+        ]
+      }
+    ]
+  }
+]
