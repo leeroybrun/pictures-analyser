@@ -11,6 +11,7 @@ import PropTypes from "prop-types";
 import './styles.css';
 
 import lightroomCCPanels from './lightroomCCPanels.json'
+import lightroomClassicPanels from './lightroomClassicPanels.json'
 import adjustments from './adjustments.json'
 
 import LightroomAdjustmentsPanel from '../LightroomAdjustmentsPanel';
@@ -31,10 +32,10 @@ class LightroomAdjustments extends Component {
 
   render() {
     const { exampleValue } = this.state; // eslint-disable-line
-    const { exampleProp } = this.props; // eslint-disable-line
+    const { metadata } = this.props; // eslint-disable-line
     return (
       <div className="lightroom-adjustments">
-        {lightroomCCPanels.map((panel) =>
+        {lightroomClassicPanels.map((panel) =>
           <LightroomAdjustmentsPanel title={panel.title}>
             {panel.groups.map((group) =>
               <LightroomAdjustmentsGroup title={group.title}>
@@ -45,7 +46,9 @@ class LightroomAdjustments extends Component {
                     return null;
                   }
 
-                  return (<LightroomAdjustmentSlider value={25} minVal={item.minVal} maxVal={item.maxVal} label={item.label} bgClassName={'sliderBg'+ capitalizeFirstLetter(item.bgClassName)} />);
+                  const itemValue = itemKey in metadata ? parseFloat(metadata[itemKey]) : null;
+
+                  return (<LightroomAdjustmentSlider value={itemValue} minVal={item.minVal} maxVal={item.maxVal} label={item.label} bgClassName={'sliderBg'+ capitalizeFirstLetter(item.bgClassName)} />);
                 })}
               </LightroomAdjustmentsGroup>
             )}
@@ -57,10 +60,10 @@ class LightroomAdjustments extends Component {
 }
 
 LightroomAdjustments.propTypes = {
-  exampleProp: PropTypes.string
+  metadata: PropTypes.object
 };
 LightroomAdjustments.defaultProps = {
-  exampleProp: ""
+  metadata: {}
 };
 
 export default LightroomAdjustments;

@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Basic",
+    "groups": [
+      {
+        "items": [
+          "Temperature",
+          "Tint"
+        ]
+      },
+      {
+        "items": [
+          "Exposure2012",
+          "Contrast2012"
+        ]
+      },
+      {
+        "items": [
+          "Highlights2012",
+          "Shadows2012",
+          "Whites2012",
+          "Blacks2012"
+        ]
+      },
+      {
+        "title": "Presence",
+        "items": [
+          "Clarity2012",
+          "Vibrance",
+          "Saturation"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "HSL",
+    "groups": [
+      {
+        "title": "Hue",
+        "items": [
+          "HueAdjustmentRed",
+          "HueAdjustmentOrange",
+          "HueAdjustmentYellow",
+          "HueAdjustmentGreen",
+          "HueAdjustmentAqua",
+          "HueAdjustmentBlue",
+          "HueAdjustmentPurple",
+          "HueAdjustmentMagenta"
+        ]
+      },
+      {
+        "title": "Saturation",
+        "items": [
+          "SaturationAdjustmentRed",
+          "SaturationAdjustmentOrange",
+          "SaturationAdjustmentYellow",
+          "SaturationAdjustmentGreen",
+          "SaturationAdjustmentAqua",
+          "SaturationAdjustmentBlue",
+          "SaturationAdjustmentPurple",
+          "SaturationAdjustmentMagenta"
+        ]
+      },
+      {
+        "title": "Luminance",
+        "items": [
+          "LuminanceAdjustmentRed",
+          "LuminanceAdjustmentOrange",
+          "LuminanceAdjustmentYellow",
+          "LuminanceAdjustmentGreen",
+          "LuminanceAdjustmentAqua",
+          "LuminanceAdjustmentBlue",
+          "LuminanceAdjustmentPurple",
+          "LuminanceAdjustmentMagenta"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Split Toning",
+    "groups": [
+      {
+        "title": "Highlights",
+        "items": [
+          "SplitToningHighlightHue",
+          "SplitToningHighlightSaturation"
+        ]
+      },
+      {
+        "items": [
+          "SplitToningBalance"
+        ]
+      },
+      {
+        "title": "Shadows",
+        "items": [
+          "SplitToningShadowHue",
+          "SplitToningShadowSaturation"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Detail",
+    "groups": [
+      {
+        "title": "Sharpening",
+        "items": [
+          "Sharpness",
+          "SharpenRadius",
+          "SharpenDetail",
+          "SharpenEdgeMasking"
+        ]
+      },
+      {
+        "title": "Noise reduction",
+        "items": [
+          "LuminanceSmoothing",
+          "LuminanceNoiseReductionDetail",
+          "LuminanceNoiseReductionContrast"
+        ]
+      },
+      {
+        "items": [
+          "ColorNoiseReduction",
+          "ColorNoiseReductionDetail",
+          "ColorNoiseReductionSmoothness"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Effects",
+    "groups": [
+      {
+        "title": "Post-Crop Vignetting",
+        "items": [
+          "PostCropVignetteAmount",
+          "PostCropVignetteMidpoint",
+          "PostCropVignetteRoundness",
+          "PostCropVignetteFeather",
+          "PostCropVignetteHighlightContrast"
+        ]
+      },
+      {
+        "title": "Grain",
+        "items": [
+          "GrainAmount",
+          "GrainSize",
+          "GrainFrequency"
+        ]
+      },
+      
+      {
+        "title": "Dehaze",
+        "items": [
+          "Dehaze"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Camera Calibration",
+    "groups": [
+      {
+        "title": "Shadows",
+        "items": [
+          "ShadowTint"
+        ]
+      },
+      {
+        "title": "Red Primary",
+        "items": [
+          "RedHue",
+          "RedSaturation"
+        ]
+      },
+      {
+        "title": "Green Primary",
+        "items": [
+          "GreenHue",
+          "GreenSaturation"
+        ]
+      },
+      {
+        "title": "Blue Primary",
+        "items": [
+          "BlueHue",
+          "BlueSaturation"
+        ]
+      }
+    ]
+  }
+]
