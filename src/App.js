@@ -45,13 +45,13 @@ class App extends Component {
     this.state.files.length > 0 ? console.log(this.state.files[0].preview) : null;
     return (
       <div className="App">
-        <div className="drop-files">
-          <Dropzone className="dropzone" accept="image/jpeg, image/png" onDrop={this.onDrop}>
-              <p>Drop files here.</p>
-          </Dropzone>
-        </div>
         <div className="columns-wrapper">
           <div className="left-column">
+            <div className="drop-files">
+              <Dropzone className="dropzone" accept="image/jpeg, image/png" onDrop={this.onDrop}>
+                  <p>Drop files here.</p>
+              </Dropzone>
+            </div>
             {this.state.files.length > 0 ? <LightroomImagePreview imgSrc={this.state.files[0].preview} metadata={this.state.metadata || {}} /> : null}
             <pre className="exif-infos">
               {JSON.stringify(this.state.metadata, null, 2)}
